@@ -19,7 +19,8 @@
     </div>
 
     <div>
-        <form action="">
+    <!-- terminar formulário -->
+        <form action=""> 
             <div>
                 <label for="">Nome:</label>
                 <input type="text">
