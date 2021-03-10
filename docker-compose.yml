@@ -1,0 +1,37 @@
+version: '3'
+services:
+  breu:
+    container_name: breu
+    build:
+      context: ./
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
+    ports:
+      - "8010:80"
+    links:
+      - db
+  db:
+    image: mysql
+    ports: 
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: breu
+      MYSQL_USER: breu
+      MYSQL_PASSWORD: q1w2e3r4
+      MYSQL_ROOT_PASSWORD: q1w2e3r4
+    volumes:
+      - ./dump:/docker-entrypoint-initdb.d
+      - persistent:/var/lib/mysql
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links: 
+      - db:db
+    ports:
+      - 8011:80
+    environment:
+      MYSQL_USER: breu
+      MYSQL_PASSWORD: q1w2e3r4
+      MYSQL_ROOT_PASSWORD: q1w2e3r4
+volumes:
+    persistent:
