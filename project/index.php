@@ -8,9 +8,19 @@
 </head>
 <body>
 
-    <div>
-        <h1>BREU Metal</h1>
-    </div>
+    <header class="cabecalho">
+        <a href="index.php"><h1>LOGO DA BANDA</h1></a>  <!-- Logo da banda -->
+        <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="close-btn">x</a>
+            <ul>
+                <li><a class="" href="#">Home</a></li>
+                <li><a class="" href="#">Breu</a></li>
+                <li><a class="" href="#">Vídeos</a></li>
+                <li><a class="" href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <div>
         <p>Banda originária da "província" de Francisco Morato,   
