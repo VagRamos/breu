@@ -112,13 +112,22 @@ img{
 /* DESCRICAO */
 .sobre{
     color: aliceblue;
-    font-size: 0.9em;
     width: 100%;
     float: left;
     padding: 3% 4%;
     margin-top: 1%;
     background-color: rgba(68, 0, 0, 0.3);
+}
+
+.sobre h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 3%;
     text-align: center;
+}
+
+.sobre p{
+    text-align: justify;
 }
 
 /* CONTATO */
@@ -136,12 +145,55 @@ img{
 }
 
 .contato h2{
-    font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
-.contato #nome{
+.contato input{
+    width: 100%;
+    color: aliceblue;
     background-color: rgba(0, 0, 0, 0.2);
-    border: #440000;
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    padding: 3%; 
+    border-radius: 5px;
+}
+
+.contato label{
+    float: left;
+    margin: 1% 1%;
+}
+
+/* .btn-enviar{
+    width: 56px;
+    height: 56px;
+    float:right;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(to right, #000, #440000);
+} */
+.contato button{
+    width: 35%;
+    background-color: aliceblue;
+    color: #130400;
+    font-weight: 400;
+    border-radius: 5px;
+    float: right;
+    padding: 2%;
+    margin: 2% 0;
+    cursor: pointer;
+}
+/* .contato i{
+    color: red;
+} */
+
+/* .contato #nome{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    padding: 3%; 
+    border-radius: 5px;
 }
 
 .contato #email{
@@ -152,14 +204,18 @@ img{
 .contato #assunto{
     background-color: rgba(0, 0, 0, 0.2);
     border: #440000;
-}
+}*/
 
 .contato #mensagem{
-    background-color: rgba(0, 0, 0, 0.3);
-    border: #440000;
-}
+    width: 100%;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    padding: 3%; 
+    border-radius: 5px;
+} 
 
-/* FOOTER */
+/* FOOTER (resolver)*/
 footer{
-    margin-top: 10%;
+    margin-top: 10%; 
 }

@@ -19,7 +19,7 @@
 
     <header class="cabecalho">
         <a href="index.php"><h1 class="logo">Breu Metal</h1></a>
-         <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+        <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
         <nav class="menu">
             <a class="btn-close"><i class="fa fa-times"></i></a>
             <ul>
@@ -30,19 +30,20 @@
             </ul>
         </nav>
     </header>
-    <div class="banner">
+    <section class="banner">
        
-    </div>
+    </section>
 
-    <div class="sobre">
+    <section class="sobre">
+        <h2>História da banda</h2>
         <p>Banda originária da "província" de Francisco Morato,   
         um município esquecido de São Paulo, exceto quando das trágedias
         que vendem boas matérias e dão audiência às mídias oportunistas.</p> 
-    </div>
+    </section>
 
     <section class="contato">
         <!-- terminar formulário -->
-        <h2>Entre em contato através do email:</h2>
+        <h2>Entre em contato:</h2>
         <form action=""> 
             <div>
                 <label>Nome:</label>
@@ -57,9 +58,9 @@
                 <input id="assunto" type="text" name="assunto" placeholder="Assunto">
             </div>
             <div>
-                <label for="">Mensagem:</label>
+                <label>Mensagem:</label>
                 <textarea name="" id="mensagem" cols="15" rows="5" placeholder="Fala aí..."></textarea>
-                <button><i class="fas fa-paper-plane">Enviar</i></button>                
+                <button><i class="fa fa-paper-plane fa-md"></i> Enviar</button>                
             </div>
         </form>
     </section>
