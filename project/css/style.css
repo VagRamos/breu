@@ -105,19 +105,61 @@ img{
     float: left;
     text-align: center;
     padding: 3% 4%;
-    background: url(../img/breu-banner1.png) no-repeat scroll;
+    background: url(../img/breu-banner1.png) no-repeat;
     background-size: 100%;
+}
+
+/* DESCRICAO */
+.sobre{
+    color: aliceblue;
+    font-size: 0.9em;
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    margin-top: 1%;
+    background-color: rgba(68, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* CONTATO */
+.contato{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    margin-top: 1%;
+    background-color: #440000;
+    text-align: center;
+}
+
+.contato form{
+    margin-top: 3%
+}
+
+.contato h2{
+    font-weight: 400;
+}
+
+.contato #nome{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: #440000;
+}
+
+.contato #email{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: #440000;
+}
+
+.contato #assunto{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: #440000;
+}
+
+.contato #mensagem{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: #440000;
 }
 
 /* FOOTER */
 footer{
-    margin-top: 10px;
-}
-/* CONTATO */
-.contato{
-    margin-top: 10px;
-}
-/* FOOTER */
-footer{
-    margin-top: 10px;
+    margin-top: 10%;
 }

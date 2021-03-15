@@ -7,7 +7,7 @@
     <title>Breu Metal</title>
     <meta name="description" content="Banda de Thrash e Metal de Francisco Morato-SP">
     <meta name="keywords" content="Breu Metal, Breu, Rock, Morato, Rock Francisco Morato">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index.php, follow">
     <meta name="author" content="vagner Ramos">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -31,37 +31,38 @@
         </nav>
     </header>
     <div class="banner">
-        <div class="caixa">
-            <!-- <h2> BREU Metal!</h2>
-            <h3>Banda originária da "província" de Francisco Morato,   
-                um município esquecido de São Paulo, exceto quando das trágedias
-                que vendem boas matérias e dão audiência às mídias oportunistas.</h3> -->
-        </div>
+       
     </div>
 
-    <div>
+    <div class="sobre">
         <p>Banda originária da "província" de Francisco Morato,   
-        <br/>um município esquecido de São Paulo, exceto quando das trágedias
-        <br/>que vendem boas matérias e dão audiência às mídias oportunistas.</p> 
+        um município esquecido de São Paulo, exceto quando das trágedias
+        que vendem boas matérias e dão audiência às mídias oportunistas.</p> 
     </div>
 
-    <div class="contato">
-    <!-- terminar formulário -->
+    <section class="contato">
+        <!-- terminar formulário -->
+        <h2>Entre em contato através do email:</h2>
         <form action=""> 
             <div>
-                <label for="">Nome:</label>
-                <input type="text">
+                <label>Nome:</label>
+                <input id="nome" type="text" name="nome" placeholder="Seu nome">
             </div>
             <div>
-                <label for="">Email:</label>
-                <input type="email">
+                <label>Email:</label>
+                <input id="email" type="email" name="email" placeholder="Seu email">
+            </div>
+            <div>
+                <label>Assunto:</label>
+                <input id="assunto" type="text" name="assunto" placeholder="Assunto">
             </div>
             <div>
                 <label for="">Mensagem:</label>
-                <textarea name="" id="" cols="15" rows="5"></textarea>
+                <textarea name="" id="mensagem" cols="15" rows="5" placeholder="Fala aí..."></textarea>
+                <button><i class="fas fa-paper-plane">Enviar</i></button>                
             </div>
         </form>
-    </div>
+    </section>
 
     <footer>
         <p>2021 &copy; BREU Metal. Todos os direitos reservados.</p>
@@ -76,5 +77,6 @@
         $(".menu").hide();
     });
 </script>
+
 </body>
 </html>
