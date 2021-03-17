@@ -109,6 +109,18 @@ img{
     background-size: 100%;
 }
 
+/* VIDEO */
+.video h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+[style*="video"] > :first-child {
+    width: 100%;
+  }
+
 /* DESCRICAO */
 .sobre{
     color: aliceblue;
@@ -128,6 +140,20 @@ img{
 
 .sobre p{
     text-align: justify;
+}
+
+/* ALBUNS */
+.fotos {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    margin-top: 1%;
+}
+.fotos h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 3%;
+    text-align: center;
 }
 
 /* CONTATO */
@@ -217,5 +243,10 @@ img{
 
 /* FOOTER (resolver)*/
 footer{
-    margin-top: 10%; 
+    width: 100%;
+    color: aliceblue;
+    font-size: 0.8em;
+    float: left;
+    padding: 3% 4%;
+    margin-top: 1%;
 }

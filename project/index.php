@@ -34,11 +34,30 @@
        
     </section>
 
+    <section class="video">
+        <h2>Youtube</h2>
+
+        <div id="youtube">
+            <iframe 
+            src="https://www.youtube.com/embed/JMFZ7tIEFpc?start=7" 
+            width="100%" 
+            height=""
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+    </section>
+    
     <section class="sobre">
         <h2>História da banda</h2>
         <p>Banda originária da "província" de Francisco Morato,   
         um município esquecido de São Paulo, exceto quando das trágedias
         que vendem boas matérias e dão audiência às mídias oportunistas.</p> 
+    </section>
+
+    <section class="fotos">
+        <h2>Fotos e rolês</h2>
+        <p>Fazer carrossel de fotos (mockup).</p> 
     </section>
 
     <section class="contato">
