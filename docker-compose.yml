@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+    breu_site:
+        build: .
+        ports: 
+            - "8001:80"
+        volumes:
+            - ./:/var/www/html/
+        
+   
